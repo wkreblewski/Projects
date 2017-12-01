@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /*border:2px solid black;*/ }
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+  /*border: 2px solid blue;*/ }
+
+.col {
+  float: left; }
+
+body {
+  background: powderblue;
+  display: flex; }
+
+.buttonNav {
+  font-size: 20px; }
+
+.stickyNote {
+  border: 2px solid black;
+  margin: 3px;
+  min-height: 100px;
+  min-width: 50px;
+  justify-content: flex-start; }
+
+.stickys {
+  display: flex; }
+  .stickys .stickyNote {
+    border: 2px solid black;
+    min-height: 100px;
+    min-width: 50px;
+    justify-content: flex-start; }
+
+.tak {
+  background-color: #ffb6a5; }
