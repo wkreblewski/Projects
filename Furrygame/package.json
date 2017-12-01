@@ -1,0 +1,22 @@
+{
+  "name": "kra_fro_s_11_furry_game",
+  "version": "1.0.0",
+  "description": "Furry_Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniamika/KRA_FRO_S_11_Furry_Game.git"
+  },
+  "author": "Witold Kreblewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniamika/KRA_FRO_S_11_Furry_Game/issues"
+  },
+  "homepage": "https://github.com/aniamika/KRA_FRO_S_11_Furry_Game#readme",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}

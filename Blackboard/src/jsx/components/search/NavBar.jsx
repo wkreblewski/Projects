@@ -6,10 +6,11 @@ class NavBar extends React.Component{
 
     render(){
         return (
-            <header>
-                <div className="container row">
-                    <h2 className="col">Blackboard</h2>
-                    <button onClick={this.props.addAction} className="buttonNav">Nowa Notatka</button>
+            <header className="header">
+                <div className="container row title">
+                    <h2 className="col">
+                        Blackboard </h2>
+                    <button onClick={this.props.addAction} className="buttonNav">New Stickynote</button>
                 </div>
             </header>
         )
